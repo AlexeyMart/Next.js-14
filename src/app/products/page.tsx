@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-const ProductsPage: FC = () => {
+const Products: FC = () => {
   return (
     <>
       <h1>Product List</h1>
@@ -11,4 +11,4 @@ const ProductsPage: FC = () => {
   );
 };
 
-export default ProductsPage;
+export default Products;

@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
-const BlogPage: FC = () => {
+const Blog: FC = () => {
   return <h1>Blog Page</h1>;
 };
 
-export default BlogPage;
+export default Blog;

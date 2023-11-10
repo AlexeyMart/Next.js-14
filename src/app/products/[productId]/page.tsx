@@ -6,7 +6,7 @@ type Props = {
   };
 };
 
-const ProductDetailPage: FC<Props> = ({ params }) => {
+const ProductDetail: FC<Props> = ({ params }) => {
   return (
     <>
       <h1>Detail about product {params.productId}</h1>
@@ -14,4 +14,4 @@ const ProductDetailPage: FC<Props> = ({ params }) => {
   );
 };
 
-export default ProductDetailPage;
+export default ProductDetail;
